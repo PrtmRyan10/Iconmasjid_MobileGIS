@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmasjid"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/iconmasjid" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:text="ICON MASJID JAWA TIMUR"
+        android:textColor="#000000"
+        android:textSize="38px" />
+
+    <Button
+        android:id="@+id/btnMapI"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary"
+        android:text="Maps Masjid Al-Akbar Surabaya"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnMap0"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorPrimary"
+        android:text="Maps Masjid Baitul Mukminin Jombang"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnMap1"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="250dp"
+        android:background="@color/colorPrimary"
+        android:text="Maps Masjid Namira Lamongan"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnMap2"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="350dp"
+        android:background="@color/colorPrimary"
+        android:text="Maps Masjid Agung Tuban"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnMap3"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary"
+        android:text="Maps Masjid At-taqwa Bondowoso"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnMap4"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorPrimary"
+        android:text="Maps Masjid Agung Blitar"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnMap5"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="250dp"
+        android:background="@color/colorPrimary"
+        android:text="Maps Masjid Muhammad Cheng Hoo Pandaan"
+        android:textColor="#ffffff" />
+
+
+    <Button
+        android:id="@+id/btnMap6"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="350dp"
+        android:background="@color/colorPrimary"
+        android:text="Maps Masjid Roudhotul Muchilisin Jember"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>
